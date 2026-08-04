@@ -1,0 +1,214 @@
+backend:
+  name: github
+  repo: xub105/frinit-site
+  branch: main
+
+media_folder: public/img/products
+public_folder: /img/products
+
+publish_mode: editorial_workflow   # 改完可预览再发布（可选）
+
+collections:
+  - name: site
+    label: Site Content
+    files:
+      - name: content
+        label: All Content (content.json)
+        file: ../data/content.json
+        fields:
+          - name: site
+            label: Site Info
+            widget: object
+            fields:
+              - { name: logoText, label: Logo Text }
+              - { name: fullName, label: Full Company Name }
+              - { name: slogan, label: Slogan, widget: textarea }
+              - { name: email, label: Email }
+              - { name: phone, label: Phone }
+              - { name: whatsapp, label: WhatsApp }
+              - { name: address, label: Address }
+              - name: social
+                label: Social Links
+                widget: object
+                fields:
+                  - { name: linkedin, label: LinkedIn URL }
+                  - { name: facebook, label: Facebook URL }
+                  - { name: instagram, label: Instagram URL }
+          - name: nav
+            label: Navigation
+            widget: list
+            field:
+              name: item
+              label: Menu Item
+              widget: object
+              fields:
+                - { name: label, label: Label }
+                - { name: href, label: Href (e.g. /about) }
+          - name: hero
+            label: Hero (Home top)
+            widget: object
+            fields:
+              - { name: title, label: Title }
+              - { name: subtitle, label: Subtitle, widget: textarea }
+              - { name: image, label: Background Image, widget: image }
+              - { name: ctaText, label: CTA Text }
+              - { name: ctaLink, label: CTA Link }
+          - name: about
+            label: About
+            widget: object
+            fields:
+              - { name: heading, label: Heading }
+              - { name: lead, label: Lead (subtitle under page title), widget: textarea }
+              - name: paragraphs
+                label: Paragraphs
+                widget: list
+                field: { name: item, label: Paragraph, widget: textarea }
+              - name: pillars
+                label: Three Strengths (What Sets Us Apart)
+                widget: list
+                field:
+                  name: item
+                  label: Strength
+                  widget: object
+                  fields:
+                    - { name: title, label: Title }
+                    - { name: desc, label: Description, widget: textarea }
+              - name: keyStats
+                label: Key Stats (home impact band, 4 items)
+                widget: list
+                field:
+                  name: item
+                  label: Key Stat
+                  widget: object
+                  fields:
+                    - { name: num, label: Number }
+                    - { name: label, label: Label }
+              - name: stats
+                label: Stats (all, shown on About page)
+                widget: list
+                field:
+                  name: item
+                  label: Stat
+                  widget: object
+                  fields:
+                    - { name: num, label: Number }
+                    - { name: label, label: Label }
+          - name: advantages
+            label: Advantages
+            widget: list
+            field:
+              name: item
+              label: Advantage
+              widget: object
+              fields:
+                - { name: no, label: No }
+                - { name: title, label: Title }
+                - { name: desc, label: Description, widget: textarea }
+          - { name: advantagesLead, label: Advantages Lead (line above the 4 cards), widget: textarea }
+          - name: clients
+            label: Clients / Brand Wall
+            widget: object
+            fields:
+              - { name: heading, label: Heading }
+              - { name: lead, label: Lead, widget: textarea }
+              - name: items
+                label: Client Brands
+                widget: list
+                field:
+                  name: item
+                  label: Brand
+                  widget: object
+                  fields:
+                    - { name: name, label: Brand Name }
+                    - { name: logo, label: Logo Image (optional), widget: image }
+          - name: certs
+            label: Certifications & Test Reports
+            widget: object
+            fields:
+              - { name: heading, label: Heading }
+              - { name: lead, label: Lead, widget: textarea }
+              - name: items
+                label: Certifications / Test Reports
+                widget: list
+                field:
+                  name: item
+                  label: Item
+                  widget: object
+                  fields:
+                    - { name: name, label: Name }
+                    - { name: kind, label: Kind (Certification / Test Report) }
+                    - { name: desc, label: Description, widget: textarea }
+                    - { name: image, label: Certificate / Report Image, widget: image }
+          - name: products
+            label: Products (Categories & Styles)
+            widget: list
+            field:
+              name: item
+              label: Category
+              widget: object
+              fields:
+                - { name: name, label: Category Name }
+                - { name: desc, label: Category Description, widget: textarea }
+                - { name: image, label: Category Cover Image, widget: image }
+                - name: styles
+                  label: Styles (款式)
+                  widget: list
+                  field:
+                    name: style
+                    label: Style
+                    widget: object
+                    fields:
+                      - { name: name, label: Style Name (款式名称) }
+                      - { name: image, label: Style Image (款式图), widget: image }
+                      - { name: desc, label: Description, widget: textarea }
+                      - { name: material, label: Material (材质) }
+                      - { name: moq, label: MOQ (起订量) }
+                      - { name: note, label: Note (备注), widget: textarea, required: false }
+          - name: services
+            label: Services
+            widget: list
+            field:
+              name: item
+              label: Service
+              widget: object
+              fields:
+                - { name: title, label: Title }
+                - { name: desc, label: Description, widget: textarea }
+          - name: process
+            label: Process (How it works)
+            widget: list
+            field:
+              name: item
+              label: Step
+              widget: object
+              fields:
+                - { name: no, label: No }
+                - { name: title, label: Title }
+                - { name: desc, label: Description, widget: textarea }
+          - name: news
+            label: News
+            widget: list
+            field:
+              name: item
+              label: News
+              widget: object
+              fields:
+                - { name: date, label: Date }
+                - { name: title, label: Title }
+                - { name: excerpt, label: Excerpt, widget: textarea }
+                - { name: link, label: Link }
+          - name: contact
+            label: Contact
+            widget: object
+            fields:
+              - { name: heading, label: Heading }
+              - { name: intro, label: Intro, widget: textarea }
+              - { name: email, label: Email }
+              - { name: phone, label: Phone }
+              - { name: whatsapp, label: WhatsApp }
+              - { name: address, label: Address }
+          - name: footer
+            label: Footer
+            widget: object
+            fields:
+              - { name: note, label: Note }

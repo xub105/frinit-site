@@ -1,0 +1,161 @@
+{
+  "site": {
+    "name": "FRINIT",
+    "fullName": "Frinit Trading Co., Ltd.",
+    "slogan": "Your Trusted Sourcing & Manufacturing Partner in China",
+    "logoText": "FRINIT",
+    "email": "info@frinit.cn",
+    "phone": "",
+    "whatsapp": "",
+    "address": "Fuzhou, Fujian, China",
+    "social": { "linkedin": "", "facebook": "", "instagram": "" }
+  },
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about" },
+    { "label": "Products", "href": "/products" },
+    { "label": "Services", "href": "/service" },
+    { "label": "News", "href": "/news" },
+    { "label": "Credentials", "href": "/credentials" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "hero": {
+    "title": "Sourcing & Manufacturing Slippers & Caps in China",
+    "subtitle": "For over fifteen years we have helped brands across Europe, the Americas, the Middle East and Africa source and manufacture beach slippers, winter fur slippers and caps — from the first sketch to the final container.",
+    "image": "",
+    "ctaText": "Send Your Inquiry",
+    "ctaLink": "/contact"
+  },
+  "about": {
+    "heading": "About FRINIT",
+    "lead": "For more than fifteen years we have helped the world's brands source and manufacture slippers and caps from China — from the very first sketch to the final container.",
+    "paragraphs": [
+      "FRINIT is a China-based sourcing and manufacturing partner with over fifteen years' experience helping international brands bring slippers and caps to market. From the first sketch to the final container, we act as the trusted extension of your own team on the ground.",
+      "Footwear is where we shine. We specialise in slippers — from lightweight summer beach sandals to plush winter fur slippers — and in caps, from baseball caps and wide-brim sun hats to knit beanies. Over the years we have built a carefully vetted network of 20+ partner factories in footwear and caps, matched precisely to each brief.",
+      "Quality is never left to chance. Our inspectors carry out factory audits, in-line checks and pre-shipment inspections to recognised AQL standards, and we engage third-party laboratories wherever testing is called for — slip resistance, phthalates, colour-fastness and more. You can be certain that what leaves the factory is exactly what you approved.",
+      "Our in-house design team keeps pace with trends across European and global markets, and develops exclusive slipper and cap styles tailored to your brand. Whether you supply your own artwork or brief us to create from scratch, we turn ideas into production-ready products through OEM and ODM.",
+      "Our clients span the USA, Europe, the Middle East and Africa, from established retailers to fast-growing independent labels. Many have worked with us for the better part of a decade — the clearest proof of the relationships we build on trust and consistency.",
+      "We welcome orders against your own designs and branding, and we hold to one simple principle: Credit and Honesty. It is how we have earned a strong reputation and lasting partnerships across the industry."
+    ],
+    "pillars": [
+      { "title": "Sourcing Experience", "desc": "Fifteen years on the ground and a network of 20+ vetted factories. We know the right facility for every brief — and the right price for every market." },
+      { "title": "Quality Control", "desc": "Factory audits, in-line and pre-shipment inspections to AQL standards, and third-party lab testing where it matters. Nothing ships until it is exactly as approved." },
+      { "title": "Style & Design", "desc": "An in-house team tracking European and global trends, developing exclusive styles for your brand through OEM and ODM." }
+    ],
+    "keyStats": [
+      { "num": "15+", "label": "Years of Sourcing" },
+      { "num": "500+", "label": "Products Delivered" },
+      { "num": "20+", "label": "Partner Factories" },
+      { "num": "98%", "label": "On-time Delivery" }
+    ],
+    "stats": [
+      { "num": "15+", "label": "Years of Sourcing" },
+      { "num": "20+", "label": "Partner Factories" },
+      { "num": "500+", "label": "Products Delivered" },
+      { "num": "98%", "label": "On-time Delivery" },
+      { "num": "4", "label": "Client Regions" },
+      { "num": "24h", "label": "Avg. Response Time" },
+      { "num": "5+", "label": "QC Inspectors" },
+      { "num": "1,200+", "label": "Containers Shipped" }
+    ]
+  },
+  "advantages": [
+    { "no": "01", "title": "Sourcing Expertise", "desc": "A fifteen-year track record and a network of 20+ vetted factories, matched precisely to your product and market." },
+    { "no": "02", "title": "Quality Assurance", "desc": "Factory audits and in-line, pre-shipment inspections to AQL standards, with third-party lab testing where required." },
+    { "no": "03", "title": "Design & Development", "desc": "An in-house design team that turns trends and your brief into exclusive, production-ready styles via OEM and ODM." },
+    { "no": "04", "title": "End-to-End Partnership", "desc": "From finance and insurance to customs clearance and shipping — one accountable partner for the whole journey." }
+  ],
+  "advantagesLead": "Three things set FRINIT apart — and they are why our clients stay with us for the long run.",
+  "clients": {
+    "heading": "Brands We Work With",
+    "lead": "We source and manufacture slippers and caps for leading brands across the world. (示例品牌 — 请替换为您的真实客户名称 / logo，并确认已获展示授权。)",
+    "items": [
+      { "name": "Havaianas", "logo": "" },
+      { "name": "Birkenstock", "logo": "" },
+      { "name": "Crocs", "logo": "" },
+      { "name": "UGG", "logo": "" },
+      { "name": "Teva", "logo": "" },
+      { "name": "FitFlop", "logo": "" },
+      { "name": "Reef", "logo": "" },
+      { "name": "OluKai", "logo": "" },
+      { "name": "Sanuk", "logo": "" },
+      { "name": "Rainbow", "logo": "" }
+    ]
+  },
+  "certs": {
+    "heading": "Certifications & Test Reports",
+    "lead": "Our partner factories and finished products are verified by recognised certification bodies and independent third-party laboratories.",
+    "items": [
+      { "name": "ISO 9001", "kind": "Certification", "desc": "Quality Management System", "image": "" },
+      { "name": "BSCI", "kind": "Certification", "desc": "Business Social Compliance Initiative audit", "image": "" },
+      { "name": "SEDEX / SMETA", "kind": "Certification", "desc": "Ethical trade & labour audit", "image": "" },
+      { "name": "OEKO-TEX Standard 100", "kind": "Certification", "desc": "Tested for harmful substances", "image": "" },
+      { "name": "REACH", "kind": "Certification", "desc": "EU chemical safety compliance", "image": "" },
+      { "name": "SGS", "kind": "Test Report", "desc": "Third-party lab testing & inspection", "image": "" },
+      { "name": "Slip Resistance Test", "kind": "Test Report", "desc": "Outsole slip & abrasion performance", "image": "" },
+      { "name": "Phthalates / REACH Test", "kind": "Test Report", "desc": "Material chemical safety report", "image": "" }
+    ]
+  },
+  "products": [
+    {
+      "name": "Summer Slippers",
+      "desc": "Lightweight beach and poolside slippers built for warm-weather markets — quick-drying, colourful and comfortable.",
+      "image": "",
+      "styles": [
+        { "name": "Beach Sandals", "image": "", "desc": "Classic strappy beach sandals with arch support and a non-slip TPR outsole. Quick-drying and colour-fast for summer retail.", "material": "EVA + TPR", "moq": "1000 pairs", "note": "Best-seller for warm markets" },
+        { "name": "EVA Molded Slides", "image": "", "desc": "One-piece moulded EVA slide with custom colourways and logo inserts. Ultra-light and easy care.", "material": "EVA", "moq": "1000 pairs", "note": "" },
+        { "name": "Sport Sandals", "image": "", "desc": "Adjustable strap sport sandals with a cushioned midsole for resort and outdoor wear.", "material": "PU + Rubber", "moq": "600 pairs", "note": "" }
+      ]
+    },
+    {
+      "name": "Winter Slippers",
+      "desc": "Cosy indoor fur slippers for the cold season — plush lining, soft footbed and anti-skid sole. Warm and gift-ready.",
+      "image": "",
+      "styles": [
+        { "name": "Fur Slippers", "image": "", "desc": "Plush faux-fur lined slippers with a memory-foam footbed and quiet anti-skid sole. Warm and gift-ready.", "material": "Faux Fur + Memory Foam", "moq": "800 pairs", "note": "Best-seller for winter retail" },
+        { "name": "Plush Bootie Slippers", "image": "", "desc": "Enclosed ankle-height bootie slippers with fluffy lining and a durable outdoor sole.", "material": "Plush + TPR", "moq": "800 pairs", "note": "" }
+      ]
+    },
+    {
+      "name": "Caps & Hats",
+      "desc": "Caps, sun hats and knit beanies for retail, promotional and outdoor use.",
+      "image": "",
+      "styles": [
+        { "name": "Baseball Cap", "image": "", "desc": "Structured 6-panel cap with adjustable strap and embroidered or printed logo.", "material": "Cotton Twill", "moq": "300 pcs", "note": "" },
+        { "name": "Wide-brim Sun Hat", "image": "", "desc": "UPF 50+ foldable sun hat for beach and outdoor use.", "material": "Paper Straw", "moq": "500 pcs", "note": "" },
+        { "name": "Knit Beanie", "image": "", "desc": "Soft acrylic winter beanie with custom woven label and cuff options.", "material": "Acrylic", "moq": "300 pcs", "note": "" }
+      ]
+    }
+  ],
+  "services": [
+    { "title": "Sourcing & Factory Matching", "desc": "Finding the right factories for your products." },
+    { "title": "Price Negotiation", "desc": "Leveraging volume and experience to get competitive prices." },
+    { "title": "Production Supervision", "desc": "Overseeing factory production from sample to bulk." },
+    { "title": "Quality Inspection", "desc": "In-process and pre-shipment inspections." },
+    { "title": "Financing", "desc": "Flexible financing to smooth your cash flow." },
+    { "title": "Insurance", "desc": "Cargo and trade insurance for peace of mind." },
+    { "title": "Customs Clearance", "desc": "Smooth clearance at origin and destination." },
+    { "title": "Shipping & Logistics", "desc": "Ocean, air and courier solutions worldwide." }
+  ],
+  "process": [
+    { "no": "01", "title": "Consult & Quote", "desc": "Tell us your product and volume; we source factories and return a competitive quote." },
+    { "no": "02", "title": "Sample & Confirm", "desc": "We develop samples, run QC, and lock specs before bulk production." },
+    { "no": "03", "title": "Production & QC", "desc": "On-site supervision and in-process inspection through to pre-shipment." },
+    { "no": "04", "title": "Logistics & Delivery", "desc": "Financing, insurance, customs clearance and shipping handled end-to-end." }
+  ],
+  "news": [
+    { "date": "2026-08-01", "title": "FRINIT at Canton Fair 2026", "excerpt": "We showcased our latest outdoor and summer goods collection to global buyers.", "link": "/news" },
+    { "date": "2026-07-15", "title": "New sustainable materials line", "excerpt": "Expanding our eco-friendly product options for international clients.", "link": "/news" }
+  ],
+  "contact": {
+    "heading": "Get in Touch",
+    "intro": "Tell us about your product and volumes, and a member of our team will come back to you within one working day.",
+    "email": "info@frinit.cn",
+    "phone": "",
+    "whatsapp": "",
+    "address": "Fuzhou, Fujian, China"
+  },
+  "footer": {
+    "note": "Credit and Honesty — your trusted overseas agent in China."
+  }
+}

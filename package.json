@@ -1,0 +1,12 @@
+{
+  "name": "frinit-site",
+  "version": "1.0.0",
+  "description": "FRINIT corporate website with self-service admin backend (zero-dependency Node).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
